@@ -1,2 +1,1 @@
-# sharding
-分库分表读写分离
+###### sjdbc-db-sharding-table-read-write-springboot：Spring Boot版 Sharding JDBC 分库分表+读写分离案例

@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.cxytiandi</groupId>
-  <artifactId>sjdbc-db-sharding-table-read-write-springboot</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>sharding</artifactId>
+  <version>0.0.1</version>
   <packaging>jar</packaging>
 
   <name>sjdbc-db-sharding-table-read-write-springboot</name>

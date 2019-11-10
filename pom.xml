@@ -91,6 +91,7 @@
                                 <!--指定以jar包运行时，main类的位置-->
                                 <mainclass>com.cxytiandi.sharding.ShardingDbTableReadWriteApplication</mainclass>
                             </manifest>
+							
                         </archive>
                     </configuration>
                 </plugin>

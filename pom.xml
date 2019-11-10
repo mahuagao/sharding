@@ -81,17 +81,15 @@
   <build>
         <pluginManagement>
             <plugins>
-                <!--解决以jar包运行时报 no main manifest attribute, xxx.jar-->
                 <plugin>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-maven-plugin</artifactId>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-jar-plugin</artifactId>
+                    <version>3.0.2</version>
                     <configuration>
                         <archive>
                             <manifest>
-                                <!--指定以jar包运行时，main类的位置-->
-                                <mainclass>com.cxytiandi.sharding.ShardingDbTableReadWriteApplication</mainclass>
+                                <mainClass>com.cxytiandi.sharding.ShardingDbTableReadWriteApplication</mainClass>
                             </manifest>
-							
                         </archive>
                     </configuration>
                 </plugin>
